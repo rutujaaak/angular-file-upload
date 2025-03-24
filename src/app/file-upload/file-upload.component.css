@@ -1,0 +1,95 @@
+/* General Styles */
+div {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* File Input */
+  input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px dashed #3498db;
+    border-radius: 5px;
+    background: #f8f9fa;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  input[type="file"]:hover {
+    border-color: #2980b9;
+  }
+  
+  /* Buttons */
+  button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background: #2980b9;
+  }
+  
+  /* Upload Status */
+  p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Uploaded Files List */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f1f1f1;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  li button {
+    background: #2ecc71;
+  }
+  
+  li button:hover {
+    background: #27ae60;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    div {
+      width: 90%;
+    }
+  
+    input[type="file"] {
+      font-size: 14px;
+    }
+  
+    button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
+  
